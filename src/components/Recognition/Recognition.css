@@ -1,0 +1,39 @@
+.recognition-hr{
+    border-top: 3px dotted#6f42c1;
+}
+
+.section-title h2{
+    color: #6f42c1;
+}
+
+.section-title.t-recognition h2{
+    display: inline-block;
+    line-height: inherit;
+    margin: 0 0 40px;
+    padding: 0 0 20px;
+    position: static;
+    width: 100%;
+    text-align: center;
+}
+.section-title.t-recognition h2{
+    background-image: url('https://i.ibb.co/1Kk9Y8v/index.png');
+    background-repeat:  no-repeat;
+    background-position: bottom center;
+}
+
+.section-body ul li{
+    list-style: none;
+    margin-bottom: 8px;
+    font-size: 18px;
+}
+.checkIcon{
+    color: #6f42c1;
+    font-size: 25px;
+}
+
+.recognition::before{
+    content: '';
+    width: 100%;
+    border-top: 3px dotted #6f42c1;
+    display: block;
+}

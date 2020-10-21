@@ -1,0 +1,32 @@
+.section-title h2{
+    color: #fd7e14;
+}
+.section-title.something-t h2{
+    background-image: url('https://i.ibb.co/1Kk9Y8v/index.png');
+    background-repeat:  no-repeat;
+    background-position: bottom center;
+}
+.section-title.something-t h2{
+    display: inline-block;
+    line-height: inherit;
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+    width: 100%;
+    text-align: center;
+}
+.section-body ul li{
+    margin-bottom: 12px;
+    font-family:  'Kiron,Lato',sans-serif!important;
+    font-size: 18px;
+}
+.something .arrowIcon{
+    color: #fd7e14!important;
+    font-size: 20px;
+}
+
+.something::before{
+    content: '';
+    width: 100%;
+    border-top: 3px dotted #fd7e14;
+    display: block;
+}

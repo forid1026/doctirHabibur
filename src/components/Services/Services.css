@@ -1,0 +1,43 @@
+.services {
+    background-color: #fff;
+    position: relative;
+}
+.services::before {
+    content: '';
+    width: 100%;
+    border-top: 3px dotted #ffc107;
+    display: block;
+}
+.wrapper{
+    padding: 60px 0;
+    
+}
+
+.section-title h2{
+    color: #ffc107;
+}
+.section-title.services-t h2{
+    display: inline-block;
+    line-height: inherit;
+    padding: 0 0 20px;
+    margin: 0 0 40px;
+    position: static;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.section-title.services-t h2{
+    background-image: url('https://i.ibb.co/1Kk9Y8v/index.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+
+}
+
+.services-hr{
+    border-top: 3px dotted #ffc107;
+}
+.arrowIcon{
+    color: #ffc107;
+    font-size: 25px;
+}

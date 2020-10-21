@@ -1,0 +1,42 @@
+
+.section-title.team-t h2{
+    display: inline-block;
+    line-height: inherit;
+    margin: 0 0 40px;
+    padding: 0 0 20px;
+    position: static;
+    text-align: center;
+    width: 100%;
+    color: #fd7e14 !important;
+   
+} 
+
+.section-title.team-t h2 {
+    background-image: url('https://i.ibb.co/1Kk9Y8v/index.png');
+    background-repeat: no-repeat;
+    background-position: bottom center;
+}
+
+.image-gallery .card{
+    border: none;
+    text-align:center;
+}
+.image-gallery{
+    padding: 10px;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.2);
+    outline:  2px dashed #fff;
+    position: relative;
+    margin-bottom: 30px;
+    background-color: #ffffff
+
+}
+
+hr.team-hr{
+    border-top: 3px dotted #fd7e14;
+}
+.team::before {
+        content: '';
+        width: 100%;
+        border-top: 3px dotted #ffc107;
+        display: block;
+    }

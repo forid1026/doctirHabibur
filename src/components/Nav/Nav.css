@@ -1,0 +1,152 @@
+
+
+a {
+  text-decoration: none !important;
+  color: #ffffff !important;
+}
+.nav-background{
+  background: #ffffff !important;
+}
+.logo-info h5 {
+  color: #32bea6;
+  font-weight: 700px;
+  line-height: 8px;
+  margin: 0;
+}
+.logo-info span {
+  color: #95a5a6;
+  font-size: 13px;
+}
+
+.navbar-nav .nav-home {
+  background: #1abc9c !important;
+}
+.navbar-nav {
+  border-radius: 4px;
+}
+.navbar-nav .nav-about {
+  background-color: #2ecc71 !important;
+  transform: rotate(-10deg);
+}
+.navbar-nav .nav-gallery {
+  background-color: #007bff !important;
+  transform: rotate(10deg);
+}
+.navbar-nav .nav-team {
+  background-color: #fd7e14 !important;
+  transform: rotate(-10deg);
+}
+.navbar-nav .nav-recognition {
+  background-color: #6f42c1 !important;
+  transform: rotate(10deg);
+}
+.navbar-nav .nav-blog {
+  background-color: #34495e !important;
+  /* transform: rotate(-10deg); */
+}
+.navbar-nav .nav-service {
+  background-color: #ffc107 !important;
+  transform: rotate(-10deg);
+}
+.navbar-nav .nav-something {
+  background-color: #fd7e14 !important;
+  transform: rotate(10deg);
+}
+.navbar-nav .nav-dropdown {
+  background-color: #dc3545 !important;
+  transform: rotate(-10deg);
+}
+
+.navbar-nav .nav-contact {
+  background-color: #6c757d;
+  transform: rotate(-10deg);
+}
+
+.navbar-nav .nav-link {
+  color: #ffffff;
+  font-size: 16px;
+  padding: 16px 8px  !important;
+  border-radius: 4px;
+}
+
+.navbar-nav .nav-about > a {
+  transform: rotate(10deg);
+}
+.navbar-nav .nav-about > a,
+.navbar-nav .nav-service > a,
+.navbar-nav .nav-dropdown > a,
+.navbar-nav .nav-contact > a {
+  transform: rotate(10deg);
+}
+.navbar-nav .nav-team > a,
+.navbar-nav .nav-gallery > a,
+.navbar-nav .nav-recognition > a,
+.navbar-nav .nav-something > a {
+  transform: rotate(-10deg);
+}
+#basic-navbar-nav {
+  margin-left: 15px;
+  margin-bottom: -55px;
+}
+.nav-dropdown {
+  margin-top: 7px !important;
+  position: relative;
+}
+#navbarSupportedContent {
+  margin-left: 15px;
+  margin-bottom: -55px;
+}
+.dropdown-menu {
+  z-index: 1500;
+}
+.nav-tvNews,
+.dropdown-menu {
+  background-color: #e74c3c !important;
+}
+.dropdown .dropdown-menu {
+  top: 64px;
+}
+.dropdown {
+  position: relative;
+}
+.dropdown:hover > .dropdown-menu {
+  display: block;
+}
+.dropdown-menu {
+  background-clip: padding-box;
+  background-color: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  border-radius: 0.25rem;
+  color: #212529;
+  display: none;
+  float: left;
+  font-size: 1rem;
+  left: 0;
+  list-style: none;
+  margin: 0.125rem 0 0;
+  min-width: 10rem;
+  padding: 0.5rem 0;
+  position: absolute;
+  text-align: left;
+  top: 100%;
+  z-index: 1000;
+}
+.dropdown-item:active,
+.dropdown-item:focus,
+.dropdown-item:hover {
+  color: #dc3545 !important;
+}
+/* 
+#28a745
+#6610f2
+#17a2b8
+#f8f9fa
+#fd7e14
+#e83e8c
+#007bff
+#6f42c1
+#dc3545
+#6c757d
+#28a745
+#20c997
+#ffc107 */

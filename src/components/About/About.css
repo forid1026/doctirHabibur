@@ -1,0 +1,45 @@
+.about-us, .blog, .contact, .gallery, .recognition, .services, .something, .team, .tvNews-com {
+    background-color: #fff;
+    position: relative;
+}
+
+.wrapper{
+    padding: 60px 0;
+    
+}
+.section-title h2{
+    color: #28a745;
+}
+.section-title.t-about h2{   
+    display: inline-block;
+    line-height: inherit;
+    margin: 0 0 40px;
+    padding: 0 0 20px;
+    position: static;
+    text-align: center;
+    width: 100%;
+}
+.section-title.t-about h2{
+
+     background-image: url('https://i.ibb.co/1Kk9Y8v/index.png');
+     background-repeat:  no-repeat;
+     background-position: center bottom;
+    
+}
+.section-body img{
+    margin-left: 200px;
+    width: 49.88%;
+    height: 80%;
+}
+.section-body p{
+    font-size: 18px;
+    margin-top: 0px;
+}
+.english-font{
+    font-family:  Lato,sans-serif;
+}
+
+.hr{
+    margin:55px 0 0;
+    border-top: 3px dotted #28a745;
+}

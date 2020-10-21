@@ -1,25 +1,58 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+} from "react-router-dom";
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import TopHeader from './components/TopHeader/TopHeader';
+import Nav from './components/Nav/Nav';
+import Team from './components/Team/Team';
+import Recognition from './components/Recognition/Recognition';
+import Services from './components/Services/Services';
+import Something from './components/Something/Something';
+import Contact from './components/Contact/Contact';
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <div>
+  
+    <TopHeader/>
+      <Router>
+      <Nav/>
+        <Switch>
+          <Route path="/home">
+            <Home/>
+          </Route>
+          <Route path="/about">
+            <About/>
+          </Route>
+          <Route path="/team">
+            <Team/>
+          </Route>
+          <Route path="/recognition">
+            <Recognition/>
+          </Route>
+          <Route path="/services">
+            <Services/>
+          </Route>
+          <Route path="/something">
+            <Something/>
+          </Route>
+          <Route path="/contact">
+            <Contact/>
+          </Route>
+          <Route path="/*">
+            <Home/>
+          </Route>
+        </Switch>
+        </Router>
+      
+      
+        </div>
   );
 }
 
