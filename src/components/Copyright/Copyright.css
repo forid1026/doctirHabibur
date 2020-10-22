@@ -31,3 +31,17 @@
     margin-top: -5px;
     text-align: right;
 }
+
+ .copyright {
+    background-image: url('https://i.ibb.co/YPgtKJc/footer-bg.jpg');
+    background-position: top;
+    background-repeat: repeat-x;
+    background-color: #008c99;
+    background-size: auto 5px;
+    clear: both;
+    color: #fff;
+    float: left;
+    margin: 0;
+    padding: 15px 0 10px;
+    width: 100%;
+}

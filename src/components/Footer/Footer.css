@@ -1,7 +1,9 @@
-.footer ul li{
+
+.list-inline, .list-unstyled {
     list-style: none;
     padding-left: 0;
 }
+
 .footer-gallery ul li{
 display: inline-block;
 margin: 5px;
@@ -96,4 +98,18 @@ width: 100%;
  .span {
     color: #008c99;
     font-size: 18px;
+    margin-right: 5px;
+}
+
+.footer {
+    padding-bottom: 20px;
+    background-image: url('https://i.ibb.co/RhzfvHB/main-footer-bg.png');
+    background-position: top;
+    background-size: cover;
+}
+@media (min-width: 1170px){
+    .float-left {
+        float: left!important;
+        margin: 2px;
+    }
 }
