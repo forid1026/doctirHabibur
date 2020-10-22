@@ -12,10 +12,10 @@
     .topbar-left li {
         margin-right: 30px;
         list-style: none;
-        font-size: 13px;
+        font-size: 14px;
         font-family: Kiron,Lato,sans-serif!important;
         color: #ffffff;
-        line-height: 30px;
+        line-height: 25px;
         
     }
     .topbar-left li a {
@@ -28,19 +28,19 @@
     list-style: none;
 }
 .top-header .topbar-right ul li{
-    margin-right: 10px;
+    margin-right: 3px;
 }
 .topbar-right p{
     color: #ffffff;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: 'Kiron,Lato',sans-serif!important;
 }
 .topbar-right li a{
-    width: 30px;
-    height: 30px;
-    padding: 3px 6px;
+    width: 25px;
+    height: 25px;
+    padding: 2px 5px;
     border-radius: 50%;
     color: #ffffff;
-   
     align-items: center;
     text-align:center;
 }

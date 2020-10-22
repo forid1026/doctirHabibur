@@ -75,10 +75,11 @@ a {
 .navbar-nav .nav-about > a,
 .navbar-nav .nav-service > a,
 .navbar-nav .nav-dropdown > a,
-.navbar-nav .nav-contact > a {
+.navbar-nav .nav-contact > a ,
+.navbar-nav .nav-team > a{
   transform: rotate(10deg);
 }
-.navbar-nav .nav-team > a,
+
 .navbar-nav .nav-gallery > a,
 .navbar-nav .nav-recognition > a,
 .navbar-nav .nav-something > a {

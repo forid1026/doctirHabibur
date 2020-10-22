@@ -14,6 +14,7 @@ import Recognition from './components/Recognition/Recognition';
 import Services from './components/Services/Services';
 import Something from './components/Something/Something';
 import Contact from './components/Contact/Contact';
+import Copyright from './components/Copyright/Copyright';
 
 
 function App() {
@@ -50,7 +51,7 @@ function App() {
           </Route>
         </Switch>
         </Router>
-      
+      <Copyright/>
       
         </div>
   );

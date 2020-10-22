@@ -24,11 +24,11 @@
 .section-body ul li{
     list-style: none;
     margin-bottom: 8px;
-    font-size: 18px;
+    font-size: 15px;
 }
 .checkIcon{
     color: #6f42c1;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .recognition::before{
