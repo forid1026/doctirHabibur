@@ -1,0 +1,99 @@
+.footer ul li{
+    list-style: none;
+    padding-left: 0;
+}
+.footer-gallery ul li{
+display: inline-block;
+margin: 5px;
+}
+.footer-gallery img{
+    border: 3px solid #007bff;
+}
+.footer-title h4{
+    font-size: 1.5rem !important;
+}
+
+.footer-box h4.widgettitle {
+    border-bottom: none;
+    padding-bottom: 25px;
+    position: relative;
+}
+
+.footer-box h4.widgettitle.steelblue_sketch::after {
+    background-color: #4c7296;
+}
+h4.widgettitle::after{
+
+background-image: url('https://i.ibb.co/607J0zn/footer-bg-f3ba0194.png');    
+background-position: 0 100%;
+background-repeat: no-repeat;
+bottom: 0;
+content: "";
+display: inline-block;
+height: 14px;
+left: 0;
+max-width: 275px;
+padding: 0;
+position: absolute;
+width: 100%;
+}
+
+.footer-box h4.widgettitle.green_sketch::after {
+    background-color: #acc158;
+}
+.footer-box h4.widgettitle.steelblue_sketch:after {
+    background-color: #4c7296;
+}
+
+
+.c-des {
+    float: left;
+    margin-bottom: 5px;
+}
+
+.praava {
+    line-height: 0;
+    position: relative;
+    top: -3px;
+}
+.praava a {
+    color: #212529;
+}
+.footer-box-body .p-slog {
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+.c-des .sub-text {
+    font-size: 16px;
+    margin: 0;
+    position: relative;
+    top: -10px;
+}
+
+.footer-box-body .textwidget .dt-sc-contact-info {
+    border-bottom: none;
+    float: left;
+    padding: 0;
+    width: 30px;
+}
+
+.footer-box-body .textwidget .dt-sc-contact-info {
+    border-bottom: none;
+    float: left;
+    padding: 0;
+    width: 30px;
+}
+.footer-box-body .textwidget .dt-sc-contact-info {
+    border-bottom: none;
+    float: left;
+    padding: 0;
+    width: 30px;
+}
+
+ .span {
+    color: #008c99;
+    font-size: 18px;
+}
