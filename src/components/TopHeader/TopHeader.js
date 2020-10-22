@@ -1,8 +1,7 @@
 import React from 'react';
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-
+import { faClock, faEnvelope,   faMobileAlt,  } from '@fortawesome/free-solid-svg-icons';
 import './TopHeader.css';
-
 import {faFacebook, faTwitter, faInstagram} from '@fortawesome/free-brands-svg-icons';
 const TopHeader = () => {
     return (
@@ -13,14 +12,15 @@ const TopHeader = () => {
                         <div className="topbar-left">
                             <ul className="d-flex">
                                 <li>
-                                   
-                                    <a href="tel:০৯৬৭৮৭০১৭০১">০৯৬৭৮৭০১৭০১</a>
+                                   <FontAwesomeIcon icon={faMobileAlt} />
+                                    <a href="tel:০৯৬৭৮৭০১৭০১">&nbsp; ০৯৬৭৮৭০১৭০১</a>
                                 </li>
                                 <li>
-                                      বিকাল ৫:৩০ হতে রাত ৮:০০ টা
+                                     <FontAwesomeIcon icon={faClock} />&nbsp; বিকাল ৫:৩০ হতে রাত ৮:০০ টা
                                 </li>
                                 <li>
-                                <a href="mailto:drhabib97@gmail.com">drhabib97@gmail.com</a>
+                                    <FontAwesomeIcon icon={faEnvelope} /> 
+                                <a href="mailto:drhabib97@gmail.com"> &nbsp; drhabib97@gmail.com</a>
                                 </li>
                             </ul>
                         </div>
